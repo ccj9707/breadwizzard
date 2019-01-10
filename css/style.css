@@ -1,0 +1,55 @@
+.logo{
+	height: 120%;
+	width: 120%;
+}
+
+html, body {
+	height:100%;
+	width:100%;
+}
+
+nav {
+	height:12vh;
+}
+
+main {
+	height:88vh;
+}
+
+#myCarousel {
+	height:48vh;
+}
+
+#myCarousel div {
+	height:48vh;
+	width:100vw;
+}
+
+#myCarousel img {
+	object-fit:fill;
+}
+
+.objectFill{
+	object-fit:fill;
+}
+
+.bgimg{
+	height:48vh;
+	width:100vw;
+}
+
+#btm{
+	height:40vh;
+	width:100vw;
+}
+
+#footer{
+	background-color:black;
+	color:grey;
+	text-align:center;
+}
+
+#slide1{
+	background-image:url("img/main/jpg/main11.jpg");
+	background-repeat:no-repeat;
+}
