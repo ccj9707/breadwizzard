@@ -1,55 +1,38 @@
-.logo{
-	height: 120%;
-	width: 120%;
+.toplogo{
+	height:10vh;
+}
+
+.social{
+	height:6vh;
 }
 
 html, body {
-	height:100%;
+	min-height:100%;
 	width:100%;
+}
+
+main {
+	min-height:100vh;
 }
 
 nav {
 	height:12vh;
 }
 
-main {
-	height:88vh;
-}
-
 #myCarousel {
-	height:48vh;
+	width:100%;
 }
 
 #myCarousel div {
-	height:48vh;
 	width:100vw;
 }
 
 #myCarousel img {
-	object-fit:fill;
-}
-
-.objectFill{
-	object-fit:fill;
-}
-
-.bgimg{
-	height:48vh;
-	width:100vw;
+	max-width: 100%;
+	max-height:100%;
 }
 
 #btm{
-	height:40vh;
+	height:50vh;
 	width:100vw;
-}
-
-#footer{
-	background-color:black;
-	color:grey;
-	text-align:center;
-}
-
-#slide1{
-	background-image:url("img/main/jpg/main11.jpg");
-	background-repeat:no-repeat;
 }
