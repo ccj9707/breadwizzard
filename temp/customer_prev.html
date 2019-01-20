@@ -9,64 +9,47 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/footer.css">
-  <style>
-    .btn{
-      height:365px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/customer.css">
 
-  <title>메뉴</title>
+  <title>고객</title>
 </head>
 <body>
     <header>
-      <div class="container-fluid py-2">
-        <div class="row">
-          <p class = "col-2" id = "visitCount">
-          Today : 123 <br />
-          Total : 123,123,123
-          </p>
-          <!-- insert logo here -->
-          <a href="index.html" class="col logo-wrapper">
-            <img id= "" class = "toplogo" src="img/logo/logoPNG.png" alt="logo">
-          </a>
-          <div class="col-3" style="text-align:right">
-            <div class="row">
-              <a href ="#" class="col-12"> 로그인 </a>
-              <ul class="col-12" style="list-style:none; font-size: 0;">
-                <li class = "d-inline-block">
-                  <a href="#" class=""><img class = "social" src = "img/sns/instagram.jpg" alt = "instagram"></a>
-                </li>
-                <li class = "d-inline-block">
-                  <a href="#" class=""><img class = "social" src = "img/sns/kakaotalk.jpg" alt = "kakaotalk"></a>
-                </li>
-                <li class = "d-inline-block">
-                  <a href="#" class=""><img class = "social" src = "img/sns/twitter.jpg" alt = "twitter"></a>
-                </li>
-                <li class = "d-inline-block">
-                  <a href="#" class=""><img class = "social" src = "img/sns/facebook.jpg" alt = "facebook"></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <nav class="navbar navbar-expand-md bg-light">
+        <!-- insert logo here -->
+        <a href="#" class="navbar-brand"><img id= "navbar-brand" class = "toplogo" src="img/logo/logoPNG.png" alt="logo"></a>
+        <ul class="navbar-nav mr-auto">
+          <li class = "nav-item">
+            <a href="#" class="navbar"><img class = "social" src = "img/sns/instagram.jpg" alt = "instagram"></a>
+          </li>
+          <li class = "nav-item">
+            <a href="#" class="navbar"><img class = "social" src = "img/sns/kakaotalk.jpg" alt = "kakaotalk"></a>
+          </li>
+          <li class = "nav-item">
+            <a href="#" class="navbar"><img class = "social" src = "img/sns/twitter.jpg" alt = "twitter"></a>
+          </li>
+          <li class = "nav-item">
+            <a href="#" class="navbar"><img class = "social" src = "img/sns/facebook.jpg" alt = "facebook"></a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class = "container">
         <div class = "row">
-          <div class = "btn col-md-4 bg-warning rounded-circle">
+          <div class = "col bg-warning">
           </div>
-          <div class = "btn col-md-4 bg-danger rounded-circle">
+          <div class = "col bg-danger">
           </div>
-          <div class = "btn col-md-4 bg-success rounded-circle">
+          <div class = "col bg-success">
           </div>
         </div>
         <div class = "row">
-          <div class = "btn col-md-4 bg-secondary rounded-circle">
+          <div class = "col bg-secondary">
           </div>
-          <div class = "btn col-md-4 bg-info rounded-circle">
+          <div class = "col">
           </div>
-          <div class = "btn col-md-4 bg-dark rounded-circle">
+          <div class = "col">
           </div>
         </div>
       </div>
@@ -78,9 +61,6 @@
         <div class = "inner">
           <ul class = "utilMenu">
             <li><a href="#">홈</a></li>
-            <li><a href="#">브랜드 소개</a></li>
-            <li><a href="#">오시는 길</a></li>
-            <li><a href="#">대표 인사</a></li>
             <li><a href="#">개인정보취급방침</a></li>
           </ul>
           <hr>

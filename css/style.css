@@ -1,5 +1,30 @@
+.toplogo{
+	height:80px;
+	min-height:80px;
+}
+
 .social{
 	height:6vh;
+}
+
+.submenu{
+	height:50vh;
+}
+#visitCount{
+	margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company div{
+	text-align: center;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	height:100px;
+	border-style:solid;
+	border-width:0.8px;
 }
 
 .logo-wrapper {
@@ -26,19 +51,8 @@ nav {
 	height:12vh;
 }
 
-#myCarousel {
-	width:100%;
-}
-
-#myCarousel div {
-	width:100%;
-}
 
 #myCarousel img {
 	max-width: 100%;
 	max-height:100%;
-}
-#btm{
-	height:50vh;
-	width:100%;
 }
