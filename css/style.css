@@ -6,6 +6,27 @@
 	height:6vh;
 }
 
+a.navbar, a.navbar-brand{
+	padding:0;
+	margin:0;
+}
+
+a.navbar-brand{
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+#visitCount{
+	margin:0;
+	margin-left:1%;
+}
+
+img.social{
+	width:40px;
+	height:40px;
+}
+
 html, body {
 	min-height:100%;
 	width:100%;
@@ -24,15 +45,15 @@ nav {
 }
 
 #myCarousel div {
-	width:100vw;
+	width:100%;
 }
 
 #myCarousel img {
 	max-width: 100%;
 	max-height:100%;
 }
-
+s
 #btm{
 	height:50vh;
-	width:100vw;
+	width:100%;
 }
